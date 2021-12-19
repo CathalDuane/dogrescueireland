@@ -87,5 +87,5 @@ function getResults(){
 //James Shaw goodest boy
 function dogVote(){
     event.preventDefault;
-    document.getElementById("dogForm").innerHTML += "<h2>Thank you Voting! </h2>";    
+    document.getElementById("dogForm").innerHTML = "<h2>Thank you Voting! </h2>";    
 }
